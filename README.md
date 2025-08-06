@@ -105,7 +105,7 @@ uvicorn server.main:app --reload
 ## 👨‍💻 Team: CommitSquad
 
 - **Siddharth** – Full-stack dev, LLM orchestration, API logic, document handling & embeddings
-- **Akul** – Database engineer (PostgreSQL), Database deployment
+- **Akul** – Database engineer (Mysql), Database deployment
 
 ---
 
