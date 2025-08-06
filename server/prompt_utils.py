@@ -25,7 +25,7 @@ Your task is to:
 You must return your response in this exact structured JSON format:
 
 {{
-  "decision": "<Approved/Rejected/Yes/No/Found/Not Found/etc. — one phrase summary>",
+  "decision": "One of: Approved, Rejected, Yes, No, Found, Not Found>",
   "amount_or_value": "<If applicable, else 'None'>",
   "justification": "<Short explanation with reference to exact phrases or clauses>"
 }}

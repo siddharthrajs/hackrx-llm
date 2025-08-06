@@ -17,11 +17,12 @@ def embed_texts(texts: list[str]) -> list[list[float]]:
 
     for i in range(0, len(texts), max_batch_size):
         batch = texts[i:i + max_batch_size]
+        
         response = client.models.embed_content(
             model="gemini-embedding-001",
-            contents=batch,
+            contents=batch,   #type:ignore
         )
-        for emb in response.embeddings:
+        for emb in response.embeddings: #type: ignore
             all_embeddings.append(emb.values)
 
     return all_embeddings

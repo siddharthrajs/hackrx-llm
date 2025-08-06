@@ -5,3 +5,4 @@ __pycache__/
 venv/
 
 /server/db_utils.py
+/server/db_similarity.py
