@@ -1,9 +1,9 @@
 # file_processor.py
 import os
 
-from pdf_utils import extract_text_from_pdf
-from docx_utils import extract_text_from_docx
-from email_utils import extract_text_from_email
+from server.pdf_utils import extract_text_from_pdf
+from server.docx_utils import extract_text_from_docx
+from server.email_utils import extract_text_from_email
 
 def extract_text(file_path):
     ext = os.path.splitext(file_path)[-1].lower()

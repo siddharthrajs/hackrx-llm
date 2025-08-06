@@ -1,7 +1,7 @@
 import os
 from google import genai
 from dotenv import load_dotenv
-from file_processor import extract_text
+from server.file_processor import extract_text
 
 load_dotenv()
 api_key = os.getenv("GEMINI_API_KEY")

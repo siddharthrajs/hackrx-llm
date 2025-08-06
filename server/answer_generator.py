@@ -1,5 +1,5 @@
 from google import genai
-from prompt_utils import build_prompt
+from server.prompt_utils import build_prompt
 
 client = genai.Client()
 
