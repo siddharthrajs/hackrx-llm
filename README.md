@@ -2,7 +2,9 @@
 
 A powerful FastAPI-based system by **Team CommitSquad** (Siddharth & Akul) that uses **Google Gemini** to answer natural language queries from **uploaded documents** like policies, legal contracts, HR manuals, and more.
 
-🔗 **Live API**: [https://hackrx-llm-api-sj2g.onrender.com](https://hackrx-llm-api-sj2g.onrender.com)
+🔗 **Live API**: [https://hackrx-llm-api-sj2g.onrender.com](https://hackrx-llm-api-sj2g.onrender.com/docs)
+
+👉 **Query (send request here):** [https://hackrx-llm-api-sj2g.onrender.com/api/query](https://hackrx-llm-api-sj2g.onrender.com/api/query)
 
 ---
 
@@ -29,7 +31,7 @@ A powerful FastAPI-based system by **Team CommitSquad** (Siddharth & Akul) that 
 
 | Component      | Tech                          |
 |----------------|-------------------------------|
-| LLM            | Gemini 1.5 Flash              |
+| LLM            | Gemini 2.5 Flash              |
 | Embeddings     | gemini-embedding-001          |
 | API Backend    | FastAPI                       |
 | Vector DB      | FAISS                         |
@@ -71,6 +73,17 @@ A powerful FastAPI-based system by **Team CommitSquad** (Siddharth & Akul) that 
   ]
 }
 ```
+## Create Environment
+```bash
+# Create venv (for all os)
+python3 -m venv venv
+
+# Activate (for macOS)
+source venv/bin/activate
+
+# Activate (for Windows)
+venv\Scripts\Activate.ps1
+```
 
 ---
 
@@ -84,9 +97,9 @@ pip install -r requirements.txt
 echo "GEMINI_API_KEY=your_api_key_here" > .env
 
 # Run locally
-uvicorn main:app --reload
+uvicorn server.main:app --reload
 ```
-
+### Add your gemini api key in .env, and enjoy 😌.
 ---
 
 ## 👨‍💻 Team: CommitSquad
