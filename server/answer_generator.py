@@ -11,7 +11,7 @@ def get_structured_answer(query: str, relevant_chunks: list[str]) -> dict:
         contents=prompt,
     )
 
-    text = response.text.strip()
+    text = response.text.strip() if response.text else ""
 
     # Extract the JSON from response (safely)
     try:

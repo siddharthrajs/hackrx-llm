@@ -3,3 +3,5 @@ __pycache__/
 *.pyc
 /sample_docs
 venv/
+
+/server/db_utils.py

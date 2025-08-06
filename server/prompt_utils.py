@@ -30,5 +30,5 @@ You must return your response in this exact structured JSON format:
   "justification": "<Short explanation with reference to exact phrases or clauses>"
 }}
 
-⚠️ Output ONLY the JSON. Do NOT include any additional explanation or text.
+**Output ONLY the JSON. Do NOT include any additional explanation or text.**
 """
