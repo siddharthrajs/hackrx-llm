@@ -1,6 +1,9 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from server.Routes.post_ques import router as post_ques_router
+from server.Routes.hackrx_webhook import router as hackrx_router
+
+
 
 app = FastAPI(
     title="LLM Document Reasoning API",
@@ -17,6 +20,8 @@ app.add_middleware(
 )
 
 app.include_router(post_ques_router, prefix="/api", tags=["Document Query"])
+
+app.include_router(hackrx_router)
 
 @app.get("/", summary="Health Check")
 async def health_check():
