@@ -1,6 +1,10 @@
-# 🧠 HackRx LLM Document Processing API
+# Lexicon Ai - Chat with your documents
+
+## 🧠 HackRx LLM Document Processing API
 
 A powerful FastAPI-based system by **Team CommitSquad** (Siddharth & Akul) that uses **Google Gemini** to answer natural language queries from **uploaded documents** like policies, legal contracts, HR manuals, and more.
+
+**Try the AI**: [https://lexicon-ai-eight.vercel.app/](https://lexicon-ai-eight.vercel.app/)
 
 🔗 **Live API**: [https://hackrx-llm-api-sj2g.onrender.com](https://hackrx-llm-api-sj2g.onrender.com/docs)
 
