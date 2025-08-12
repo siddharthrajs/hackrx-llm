@@ -104,12 +104,6 @@ echo "GEMINI_API_KEY=your_api_key_here" > .env
 uvicorn server.main:app --reload
 ```
 ### Add your gemini api key in .env, and enjoy 😌.
----
-
-## 👨‍💻 Team: CommitSquad
-
-- **Siddharth** – Full-stack dev, LLM orchestration, API logic, document handling & embeddings
-- **Akul** – Database engineer (Mysql), Database deployment
 
 ---
 
