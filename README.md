@@ -91,7 +91,44 @@ venv\Scripts\Activate.ps1
 
 ---
 
-## 🧪 Local Development
+## 🐳 Docker Setup (Recommended)
+
+### Quick Start with Docker
+
+```bash
+# 1. Add your Gemini API key
+echo "GEMINI_API_KEY=your_api_key_here" > .env
+
+# 2. Run the application
+./run.sh
+
+# Or manually:
+# docker-compose build
+# docker-compose up -d
+```
+
+### Docker Commands
+
+```bash
+# Build the image
+docker-compose build
+
+# Run in background
+docker-compose up -d
+
+# View logs
+docker-compose logs -f
+
+# Stop the application
+docker-compose down
+
+# Rebuild after code changes
+docker-compose up --build
+```
+
+---
+
+## 🧪 Local Development (Alternative)
 
 ```bash
 # Install dependencies
@@ -103,6 +140,7 @@ echo "GEMINI_API_KEY=your_api_key_here" > .env
 # Run locally
 uvicorn server.main:app --reload
 ```
+
 ### Add your gemini api key in .env, and enjoy 😌.
 
 ---
