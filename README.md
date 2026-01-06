@@ -8,7 +8,7 @@ A powerful FastAPI-based system by **Team CommitSquad** (Siddharth & Akul) that 
 
 🔗 **Live API**: [http://b4cocwc8okkw44go8kc8c0gk.129.159.230.243.sslip.io/](http://b4cocwc8okkw44go8kc8c0gk.129.159.230.243.sslip.io/)
 
-👉 **Query (send request here):** [https://hackrx-llm-api-sj2g.onrender.com/api/query](https://hackrx-llm-api-sj2g.onrender.com/api/query)
+👉 **Query (send request here):** [http://b4cocwc8okkw44go8kc8c0gk.129.159.230.243.sslip.io/api/query](http://b4cocwc8okkw44go8kc8c0gk.129.159.230.243.sslip.io/api/query)
 
 ---
 
